@@ -506,6 +506,10 @@ public:
     // Example value: "true" or "false". Read only.
     static const char KEY_VIDEO_SNAPSHOT_SUPPORTED[];
 
+    // camera iso mode support
+    static const char KEY_ISO_MODE[];
+    static const char KEY_SUPPORTED_ISO_MODES[];
+
     // The state of the video stabilization. If set to true, both the
     // preview stream and the recorded video stream are stabilized by
     // the camera. Only valid to set if KEY_VIDEO_STABILIZATION_SUPPORTED is
